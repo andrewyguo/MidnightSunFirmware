@@ -68,6 +68,7 @@ int main() {
     event_process(&e);
 
     drive_fsm_process_event(&drive_fsm, &e);
+    fsm_process_event(&brake_fsm, &e);
     brake_fsm_process_event(&e);
     
     // perhaps distinguish which events are actually for can
