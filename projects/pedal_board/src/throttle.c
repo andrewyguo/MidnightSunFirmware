@@ -37,7 +37,6 @@ StatusCode throttle_init(ThrottleStorage *storage) {
 }
 
 StatusCode throttle_enable(ThrottleStorage *storage) {
-
   StatusCode ret = soft_timer_start_millis(THROTTLE_UPDATE_PERIOD_MS, prv_timer_callback, storage,
                                            &drive_fsm_soft_timer_id);
 
