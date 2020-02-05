@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 #include "throttle.h"
 <<<<<<< HEAD
 
 #include "ads1015.h"
 =======
+=======
+>>>>>>> d71d37c795056c9b417507f1373d610d7264260f
 #include "ads1015.h"
 #include "event_queue.h"
 >>>>>>> 5d5aa94fb8e673ab624420273fc1d6808257da11
@@ -19,6 +22,7 @@
 =======
 #include "pedal_events.h"
 #include "soft_timer.h"
+#include "throttle.h"
 #include "unity.h"
 >>>>>>> 5d5aa94fb8e673ab624420273fc1d6808257da11
 
